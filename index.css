@@ -1,0 +1,40 @@
+body {
+  display: flex;
+}
+
+.main_container {
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 10px 15px;
+}
+
+.count1,
+.count2 {
+  display: inline-block;
+  justify-content: space-evenly;
+}
+
+tr,
+td,
+th {
+  padding: 10px;
+}
+
+.blue {
+  background-color: rgba(137, 209, 249, 0.653);
+}
+
+.l_blue {
+  background-color: rgba(212, 236, 249, 0.694);
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+}
